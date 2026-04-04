@@ -20,7 +20,11 @@
         .card { border: none !important;
             &.border-right { border: none !important;}
         }
-}
+    }
+
+    .join-mssa {
+        .page-container { width: 100%;}
+    }
 }
 
 @media screen and (max-width: 414px) {

@@ -313,6 +313,9 @@ body {
   .features .card.border-right {
     border: none !important;
   }
+  .join-mssa .page-container {
+    width: 100%;
+  }
 }
 
 /*# sourceMappingURL=app.css.map */
