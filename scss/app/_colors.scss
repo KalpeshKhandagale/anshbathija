@@ -1,0 +1,49 @@
+/* ---------------------------
+    BRAND COLORS
+   --------------------------- */
+.primary-theme-color        { color: $primary-theme-color !important; }
+.secondary-theme-color      { color: $secondary-theme-color !important; }
+.tertiary-theme-color       { color: $tertiary-theme-color !important; }
+
+/* ---------------------------
+    TEXT COLORS
+--------------------------- */
+.primary-text-color        { color: $primary-text-color !important; }
+.secondary-text-color      { color: $secondary-text-color !important; }
+.tertiary-text-color       { color: $tertiary-text-color !important; }
+
+/* ---------------------------
+    LINK COLORS
+--------------------------- */
+.primary-link-color        { color: $primary-link-color !important; }
+.secondary-link-color      { color: $secondary-link-color !important; }
+
+/* ---------------------------
+    BACKGROUND COLORS
+--------------------------- */
+.primary-bg-color          { background: $primary-bg-color !important; }  
+.secondary-bg-color        { background: $secondary-bg-color !important; }  
+.tertiary-bg-color         { background: $tertiary-bg-color !important; }
+
+/* ---------------------------
+STATUS COLORS
+--------------------------- */
+.theme-info-color          { color: $theme-info-color !important; }  
+.theme-success-color       { color: $theme-success-color !important; }  
+.theme-warning-color       { color: $theme-warning-color !important; }
+
+/* ---------------------------
+NEUTRALS
+--------------------------- */
+.theme-dark-color            { color: $theme-dark-color !important; }
+.theme-light-color           { color: $theme-light-color !important; }
+
+/* ---------------------------
+SURFACE COLORS
+--------------------------- */
+.primary-surface-page-bg     { background: $primary-surface-page-bg !important; }
+.secondary-surface-page-bg   { background: $secondary-surface-page-bg !important; }
+.tertiary-surface-page-bg    { background: $tertiary-surface-page-bg !important; }
+.quaternary-surface-page-bg  { background: $quaternary-surface-page-bg !important; }
+
+.input-bg-color              { background: $input-bg-color !important; }

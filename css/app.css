@@ -35,11 +35,11 @@
 }
 
 .body-md {
-  font-size: 1.125rem !important;
+  font-size: 1.25rem !important;
 }
 
-.body-sm {
-  font-size: 1rem !important;
+.body-sm, body {
+  font-size: 1.125rem !important;
 }
 
 /* ---------------------------
@@ -87,6 +87,145 @@
 /* ---------------------------
     FONTS
 --------------------------- */
+/* ---------------------------
+    BRAND COLORS
+   --------------------------- */
+.primary-theme-color {
+  color: var(--primary-theme-color, #797979) !important;
+}
+
+.secondary-theme-color {
+  color: var(--secondary-theme-color, #43536c) !important;
+}
+
+.tertiary-theme-color {
+  color: var(--tertiary-theme-color, #0b1e3d) !important;
+}
+
+/* ---------------------------
+    TEXT COLORS
+--------------------------- */
+.primary-text-color {
+  color: var(--primary-text-color, #797979) !important;
+}
+
+.secondary-text-color {
+  color: var(--secondary-text-color, #43536c) !important;
+}
+
+.tertiary-text-color {
+  color: var(--tertiary-text-color, #0b1e3d) !important;
+}
+
+/* ---------------------------
+    LINK COLORS
+--------------------------- */
+.primary-link-color {
+  color: var(--primary-link-color, #c61e3e) !important;
+}
+
+.secondary-link-color {
+  color: var(--secondary-link-color, #f24a4a) !important;
+}
+
+/* ---------------------------
+    BACKGROUND COLORS
+--------------------------- */
+.primary-bg-color {
+  background: var(--primary-bg-color, #4A154E) !important;
+}
+
+.secondary-bg-color {
+  background: var(--secondary-bg-color, #FFFFFB) !important;
+}
+
+.tertiary-bg-color {
+  background: var(--tertiary-bg-color, #FFFEF1) !important;
+}
+
+/* ---------------------------
+STATUS COLORS
+--------------------------- */
+.theme-info-color {
+  color: var(--theme-info-color, #9A52F3) !important;
+}
+
+.theme-success-color {
+  color: var(--theme-success-color, #159A3F) !important;
+}
+
+.theme-warning-color {
+  color: var(--theme-warning-color, #D60A18) !important;
+}
+
+/* ---------------------------
+NEUTRALS
+--------------------------- */
+.theme-dark-color {
+  color: var(--theme-dark-color, #10141B) !important;
+}
+
+.theme-light-color {
+  color: var(--theme-light-color, #FFFFFB) !important;
+}
+
+/* ---------------------------
+SURFACE COLORS
+--------------------------- */
+.primary-surface-page-bg {
+  background: var(--primary-surface-page-bg, #a1bcbe) !important;
+}
+
+.secondary-surface-page-bg {
+  background: var(--secondary-surface-page-bg, #f4f1eb) !important;
+}
+
+.tertiary-surface-page-bg {
+  background: var(--tertiary-surface-page-bg, #dadada) !important;
+}
+
+.quaternary-surface-page-bg {
+  background: var(--quaternary-surface-page-bg, #f4f1eb) !important;
+}
+
+.input-bg-color {
+  background: var(--input-bg-color, #FDFBFF) !important;
+}
+
+.button-primary {
+  color: var(--tertiary-theme-color, #0b1e3d) !important;
+  border: 3px dashed var(--primary-border-color, #c61e3e);
+}
+
+.button-secondary {
+  background-color: var(--secondary-button-color, #FAF59F) !important;
+  color: var(--secondary-text-color, #43536c) !important;
+  padding-top: 12px !important;
+  padding-bottom: 12px !important;
+}
+.button-secondary:hover {
+  background-color: var(--secondary-button-hover-color, #4A154E) !important;
+  color: var(--theme-light-color, #FFFFFB) !important;
+}
+
+.button-tertiary {
+  background-color: var(--tertiary-button-color, #9A52F3) !important;
+  color: var(--theme-light-color, #FFFFFB) !important;
+  padding-top: 12px !important;
+  padding-bottom: 12px !important;
+}
+.button-tertiary:hover {
+  background-color: var(--tertiary-button-hover-color, #FFFFFB) !important;
+  color: var(--theme-dark-color, #10141B) !important;
+}
+
+.button-disable {
+  background-color: var(--theme-disabled-color, #CBD5E0) !important;
+  color: var(--theme-light-color, #FFFFFB) !important;
+  padding-top: 12px !important;
+  padding-bottom: 12px !important;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
   color: var(--primary-theme-color, #797979);
@@ -102,6 +241,43 @@ body {
   width: 92%;
   max-width: 1200px;
   margin: 0 auto;
+}
+
+/* ---------------------------
+   LETTER SPACING CLASSES
+--------------------------- */
+.letter-spacing-1 {
+  letter-spacing: 0.063rem;
+}
+
+.letter-spacing-2 {
+  letter-spacing: 0.125rem;
+}
+
+.letter-spacing-3 {
+  letter-spacing: 0.188rem;
+}
+
+.letter-spacing-4 {
+  letter-spacing: 0.25rem;
+}
+
+.letter-spacing-5 {
+  letter-spacing: 0.313rem;
+}
+
+/* ---------------------------
+   TEXT STYLE CLASSES
+--------------------------- */
+.text-justify {
+  text-align: justify;
+}
+
+.seprator {
+  width: 100%;
+  height: 2px;
+  background-color: var(--primary-theme-color, #797979);
+  flex: 1;
 }
 
 /*# sourceMappingURL=app.css.map */

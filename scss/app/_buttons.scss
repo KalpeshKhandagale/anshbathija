@@ -1,0 +1,12 @@
+// BUTTON PRIMARY
+.button-primary { color: $tertiary-theme-color !important; border: 3px dashed $primary-border-color;}
+// BUTTON SECONDARY
+.button-secondary { background-color: $secondary-button-color !important; color: $secondary-text-color !important; padding-top: 12px !important; padding-bottom: 12px !important;
+    &:hover { background-color: $secondary-button-hover-color !important; color: $theme-light-color !important; }
+}
+// BUTTON TERTIARY
+.button-tertiary { background-color: $tertiary-button-color !important; color: $theme-light-color !important; padding-top: 12px !important; padding-bottom: 12px !important;
+    &:hover { background-color: $tertiary-button-hover-color !important; color: $theme-dark-color !important;}
+}
+// BUTTON DISABLE
+.button-disable { background-color: $theme-disabled-color !important; color: $theme-light-color !important; padding-top: 12px !important; padding-bottom: 12px !important;}

@@ -1,5 +1,5 @@
 body {
-    font-family: $font-reg; color: $primary-theme-color; font-optical-sizing: auto; font-style: normal;
+    font-family: $font-reg; @extend .body-sm; color: $primary-theme-color; font-optical-sizing: auto; font-style: normal;
     font-variation-settings:
         "slnt" 0,
         "CRSV" 0,
@@ -14,3 +14,19 @@ body {
     max-width: 1200px;
     margin: 0 auto;
 }
+
+/* ---------------------------
+   LETTER SPACING CLASSES
+--------------------------- */
+
+.letter-spacing-1 { letter-spacing: 0.063rem; }
+.letter-spacing-2 { letter-spacing: 0.125rem; }
+.letter-spacing-3 { letter-spacing: 0.188rem; }
+.letter-spacing-4 { letter-spacing: 0.25rem; }
+.letter-spacing-5 { letter-spacing: 0.313rem; }
+
+/* ---------------------------
+   TEXT STYLE CLASSES
+--------------------------- */
+
+.text-justify { text-align: justify; }
