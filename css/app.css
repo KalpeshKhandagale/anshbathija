@@ -1,47 +1,3 @@
-/* Geologica Embeded Fonts */
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
-/* Variable declaration for fonts */
-/* Fonts weights */
-.font-light {
-  font-weight: 300 !important;
-}
-
-.font-reg {
-  font-weight: 400 !important;
-}
-
-.font-medium {
-  font-weight: 500 !important;
-}
-
-.font-bold {
-  font-weight: 700 !important;
-}
-
-.heading-lg {
-  font-size: 2.063rem !important;
-}
-
-.heading-md {
-  font-size: 1.875rem !important;
-}
-
-.body-xl {
-  font-size: 1.563rem !important;
-}
-
-.body-lg {
-  font-size: 1.5rem !important;
-}
-
-.body-md {
-  font-size: 1.25rem !important;
-}
-
-.body-sm, body {
-  font-size: 1.125rem !important;
-}
-
 /* ---------------------------
     BRAND COLORS
    --------------------------- */
@@ -87,6 +43,69 @@
 /* ---------------------------
     FONTS
 --------------------------- */
+/* Geologica Embeded Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+/* Variable declaration for fonts */
+/* Fonts weights */
+.font-light {
+  font-weight: 300 !important;
+}
+
+.font-reg {
+  font-weight: 400 !important;
+}
+
+.font-medium {
+  font-weight: 500 !important;
+}
+
+.font-bold {
+  font-weight: 700 !important;
+}
+
+.heading-lg {
+  font-size: 2.063rem !important;
+}
+
+.heading-md {
+  font-size: 1.875rem !important;
+}
+
+.body-xl {
+  font-size: 1.563rem !important;
+}
+
+.body-lg {
+  font-size: 1.5rem !important;
+}
+
+.body-md {
+  font-size: 1.25rem !important;
+}
+
+.body-sm, body {
+  font-size: 1.125rem !important;
+}
+
+@media screen and (max-width: 768px) {
+  .heading-lg {
+    font-size: 1.875rem !important;
+  }
+  .heading-md {
+    font-size: 1.625rem !important;
+  }
+}
+@media screen and (max-width: 576px) {
+  .heading-lg {
+    font-size: 1.625rem !important;
+  }
+  .heading-md {
+    font-size: 1.5rem !important;
+  }
+  .body-xl {
+    font-size: 1.375rem !important;
+  }
+}
 /* ---------------------------
     BRAND COLORS
    --------------------------- */
@@ -276,8 +295,24 @@ body {
 .seprator {
   width: 100%;
   height: 2px;
-  background-color: var(--primary-theme-color, #797979);
   flex: 1;
+  background-color: var(--primary-theme-color, #797979);
+}
+
+.features .card {
+  border-right: 2px dashed var(--secondary-border-color, #e0a753) !important;
+}
+.features .card.border-right {
+  border: none !important;
+}
+
+@media screen and (max-width: 576px) {
+  .features .card {
+    border: none !important;
+  }
+  .features .card.border-right {
+    border: none !important;
+  }
 }
 
 /*# sourceMappingURL=app.css.map */
