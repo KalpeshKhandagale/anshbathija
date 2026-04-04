@@ -1,0 +1,22 @@
+
+/* Geologica Embeded Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Variable declaration for fonts */
+$font-reg 			: "Montserrat", sans-serif;
+
+/* Fonts weights */
+.font-light {
+	font-weight: 300 !important;
+}
+.font-reg {
+	font-weight: 400 !important;
+}
+.font-medium {
+	font-weight: 500 !important;
+}
+.font-bold {
+	font-weight: 700 !important;
+}
+
+

@@ -1,0 +1,107 @@
+/* Geologica Embeded Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+/* Variable declaration for fonts */
+/* Fonts weights */
+.font-light {
+  font-weight: 300 !important;
+}
+
+.font-reg {
+  font-weight: 400 !important;
+}
+
+.font-medium {
+  font-weight: 500 !important;
+}
+
+.font-bold {
+  font-weight: 700 !important;
+}
+
+.heading-lg {
+  font-size: 2.063rem !important;
+}
+
+.heading-md {
+  font-size: 1.875rem !important;
+}
+
+.body-xl {
+  font-size: 1.563rem !important;
+}
+
+.body-lg {
+  font-size: 1.5rem !important;
+}
+
+.body-md {
+  font-size: 1.125rem !important;
+}
+
+.body-sm {
+  font-size: 1rem !important;
+}
+
+/* ---------------------------
+    BRAND COLORS
+   --------------------------- */
+/* ---------------------------
+    TEXT COLORS
+--------------------------- */
+/* ---------------------------
+    LINK COLORS
+--------------------------- */
+/* ---------------------------
+    BUTTON COLORS
+--------------------------- */
+/* ---------------------------
+    BORDER COLORS
+--------------------------- */
+/* ---------------------------
+    BACKGROUND COLORS
+--------------------------- */
+/* ---------------------------
+    STATUS COLORS
+--------------------------- */
+/* ---------------------------
+    INPUT COLORS
+--------------------------- */
+/* ---------------------------
+    DISABLED COLOR
+--------------------------- */
+/* ---------------------------
+    NEUTRALS COLORS
+--------------------------- */
+/* ---------------------------
+    SHADOW COLORS
+--------------------------- */
+/* ---------------------------
+   SHADOW OPACITY
+--------------------------- */
+/* ---------------------------
+   SHADOWS
+--------------------------- */
+/* ---------------------------
+   SURFACE COLORS
+--------------------------- */
+/* ---------------------------
+    FONTS
+--------------------------- */
+body {
+  font-family: "Montserrat", sans-serif;
+  color: var(--primary-theme-color, #797979);
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "slnt" 0, "CRSV" 0, "SHRP" 0;
+}
+
+/* ---------------------------
+   CONTAINER CLASSES
+--------------------------- */
+.page-container {
+  width: 92%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/*# sourceMappingURL=app.css.map */

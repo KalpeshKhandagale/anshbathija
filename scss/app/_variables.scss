@@ -1,0 +1,97 @@
+//------ Theme configuration variables ------//
+
+/* ---------------------------
+    BRAND COLORS
+   --------------------------- */
+$primary-theme-color           : var(--primary-theme-color, #797979);
+$secondary-theme-color         : var(--secondary-theme-color, #43536c);
+$tertiary-theme-color          : var(--tertiary-theme-color, #000000);
+   
+/* ---------------------------
+    TEXT COLORS
+--------------------------- */
+$primary-text-color            : var(--primary-text-color, #797979);
+$secondary-text-color          : var(--secondary-text-color, #43536c);
+$tertiary-text-color           : var(--tertiary-text-color, #000000);
+
+/* ---------------------------
+    LINK COLORS
+--------------------------- */
+$primary-link-color            : var(--primary-link-color, #0C5BB6);
+$secondary-link-color          : var(--secondary-link-color, #FFFFFB);
+
+/* ---------------------------
+    BUTTON COLORS
+--------------------------- */
+$primary-button-color          : var(--primary-button-color, #F94E1A);
+$primary-button-hover-color    : var(--primary-button-hover-color, #4A154E);
+$secondary-button-color        : var(--secondary-button-color, #FAF59F);
+$secondary-button-hover-color  : var(--secondary-button-hover-color, #4A154E);
+$tertiary-button-color         : var(--tertiary-button-color, #9A52F3);
+$tertiary-button-hover-color   : var(--tertiary-button-hover-color, #FFFFFB);
+
+/* ---------------------------
+    BORDER COLORS
+--------------------------- */
+$primary-border-color          : var(--primary-border-color, #FAF59F);
+$secondary-border-color        : var(--secondary-border-color, #0C5BB6);
+$tertiary-border-color         : var(--tertiary-border-color, #E2E8F0);
+$muted-border-color            : var(--muted-border-color, #E8DCF3);
+$seprator-border-color         : var(--seprator-border-color, #E8E5E1);
+
+/* ---------------------------
+    BACKGROUND COLORS
+--------------------------- */
+$primary-bg-color              : var(--primary-bg-color, #4A154E);
+$secondary-bg-color            : var(--secondary-bg-color, #FFFFFB);
+$tertiary-bg-color             : var(--tertiary-bg-color, #FFFEF1);
+
+/* ---------------------------
+    STATUS COLORS
+--------------------------- */
+$theme-info-color              : var(--theme-info-color, #9A52F3);
+$theme-success-color           : var(--theme-success-color, #159A3F);
+$theme-warning-color           : var(--theme-warning-color, #D60A18);
+
+/* ---------------------------
+    INPUT COLORS
+--------------------------- */
+$input-bg-color                : var(--input-bg-color, #FDFBFF);
+
+/* ---------------------------
+    DISABLED COLOR
+--------------------------- */
+$theme-disabled-color        : var(--theme-disabled-color, #CBD5E0);
+
+/* ---------------------------
+    NEUTRALS COLORS
+--------------------------- */
+$theme-dark-color            : var(--theme-dark-color, #10141B);
+$theme-light-color           : var(--theme-light-color, #FFFFFB);
+
+/* ---------------------------
+    SHADOW COLORS
+--------------------------- */
+$primary-shadow-color        : #7F8DA0;
+$secondary-shadow-color      : #2A303B;
+
+/* ---------------------------
+   SHADOW OPACITY
+--------------------------- */
+$shadow-opacity-light        : 0.10;
+
+/* ---------------------------
+   SHADOWS
+--------------------------- */
+$primary-shadow              : 0 6px 6px 0 rgba($primary-shadow-color, $shadow-opacity-light);
+$secondary-shadow            : 0 4px 6px 2px rgba($secondary-shadow-color, $shadow-opacity-light);
+
+/* ---------------------------
+   SURFACE COLORS
+--------------------------- */
+$surface-page-bg             : var(--surface-page-bg, #FFF1E0);
+
+/* ---------------------------
+    FONTS
+--------------------------- */
+$theme-font-primary          : var(--theme-font-primary, 'Geologica');
