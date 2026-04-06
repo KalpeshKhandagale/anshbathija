@@ -18,7 +18,8 @@
                         It’s a direction.
                     </h1>
                     <a href="https://manmet.authui.unioncloud.org/?redirect_to=%2Fevoting_election_votings" target="_blank" class="button-primary heading-md font-medium text-uppercase text-decoration-none letter-spacing-3 d-block py-1 my-3">Vote Now</a>
-                    <div class="body-md font-medium primary-link-color text-uppercase letter-spacing-3">Voting ends in 10 days</div>
+                    <div 
+                    class="body-md font-medium primary-link-color text-uppercase letter-spacing-3" id="voting-days"></div>
                 </div>
             </div>
         </div>
@@ -205,5 +206,29 @@
         </div>
     </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        (function () {
+            const endDate = new Date('2026-04-14');
+            const today = new Date();
+
+            // Remove time part for accurate day calc
+            endDate.setHours(0,0,0,0);
+            today.setHours(0,0,0,0);
+
+            const diffTime = endDate - today;
+            const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+            console.log(diffTime);
+
+            const el = document.getElementById('voting-days');
+
+            if (diffDays > 0) {
+                el.innerText = `Voting ends in ${diffDays} day${diffDays > 1 ? 's' : ''}`;
+            } else if (diffDays === 0) {
+                el.innerText = "Voting ends today";
+            } else {
+                el.innerText = "Voting has ended";
+            }
+        })();
+    </script>
 </body>
 </html>
